@@ -24,7 +24,7 @@ export default function Screen() {
     <section className="h-screen w-full flex items-center justify-center bg-black">
       <Form method="post" action="/auth/github">
         {error && <div>{error.message}</div>}
-        <button className="border-2 border-zinc-700 text-zinc-100 px-10 py-2 rounded-md hover:bg-zinc-100 hover:border-zinc-100 hover:text-zinc-900 transition-all">
+        <button className="border-2 border-zinc-700 text-zinc-100 px-20 py-2 rounded-md hover:bg-zinc-100 hover:border-zinc-100 hover:text-zinc-900 transition-all">
           Sign In with GitHub
         </button>
       </Form>
