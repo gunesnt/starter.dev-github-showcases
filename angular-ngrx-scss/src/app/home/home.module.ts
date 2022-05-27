@@ -9,6 +9,7 @@ import { ProfileNavComponent } from './profile/profile-nav/profile-nav.component
 import { ProfileAboutComponent } from './profile/profile-about/profile-about.component';
 import { ProfileReposComponent } from './profile/profile-repos/profile-repos.component';
 import { RelativeTimePipe } from '../shared/pipes/relative-time.pipe';
+import { UserGistsComponent } from './user-gists/user-gists.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { RelativeTimePipe } from '../shared/pipes/relative-time.pipe';
     ProfileAboutComponent,
     ProfileReposComponent,
     RelativeTimePipe,
+    UserGistsComponent,
   ],
   imports: [CommonModule, HomeRoutingModule],
 })
